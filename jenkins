@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Example'
-                script: mvn clean install
                 echo 'Building done'
             }
         }
